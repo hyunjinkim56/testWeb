@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'ghanachoco';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:link { color: black;}
+:visited {color: black;}
+
+a:hover {
+    color: blanchedalmond;
+    background-color: black;
+}
+
+
+
+/* 전체 카테고리 틀 */
+#main-category {
+    display:inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  /* 카테고리 제목 틀 */
+  .category-header {
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+  }
+  /* 카테고리 제목 */
+  .category-title {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'ghanachoco', cursive;
+    color: green;
+  }
+  /* 카테고리 내용물(한 카테고리에 내용물 3개가 되도록)*/
+  .category-content {
+    float: left;
+    width: 33.3%;
+
+  }
+  /* 내용물 제목, 시간 틀*/
+  .category-body {
+    margin-top: 10px;
+    margin-bottom:15px;
+  }
+  /* 내용물 제목 */
+  .category-body .title { font-size:1.2em; }
+  .category-body .title a { color: black; }
+  /* 내용물 시간 */
+  .category-body .date {
+    font-size:0.9em;
+    margin-top:5px;
+    color:#000000;
+  }
+  .category-body .date span { margin-left:5px; }
+
+  
+  /* 내용물 사진 */
+  .category-item {
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+    margin: 20px 80px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nanum+Gothic&display=swap');
+
+* {
+  margin: 0; padding: 0;
+  font-family: 'Nanum Gothic', 'Malgun Gothic', Gothic, sans-serif;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+
+.architect-font { font-family: 'Architects Daughter', cursive; }
+
+body {
+  width: 100%; margin: 0 auto;
+  min-width: 1280px;
+}
+
+
+#page-wrapper {
+  background: white;
+
+  position: relative;
+  min-height: 100vh;
+}
+
+
+#main-header { margin: 0 auto; background-image:url(img/sky.jpg); width: 1280px; height: 380px; background-repeat: none;}
+.master-title {
+  font-size: 30px;
+  color: #181818;
+  text-align: center;
+  padding-top: 250px;
+}
+.master-description {
+  font-size: 15px; font-weight: 500;
+  color: #000000;
+  text-align: right;
+  margin-top: 25px;
+}
+
+#main-navigation {
+  height: 320px;
+  background-image:url(img/mountain.png);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.menu-title {
+  display: block;
+  height: 30px; line-height: 30px;
+  text-align: center;
+  padding: 4px 20px;
+  
+}
+
+.nav-category {
+    position: relative;
+    width: 100%;
+    min-width: 1208px;
+    height: 78px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.category-ul {
+    display: inline-block;
+    text-align: left;
+    
+    
+}
+
+.category-li {
+    position: relative;
+    float: left;
+    padding: 0px 100px;
+    
+
+}
+
+
+.menu-header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-image: url(img/leaf.png);
+  height: 197px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.menu-title {
+
+  font-size: 2em;
+  font-weight: 300;
+  font-family: 'Architects Daughter', cursive;
+  color: green;
+  line-height: 200px;
+  padding-top: 25px;
+}
+
+
+.menu-content {
+    float: left;
+    width: 25%;
+}
+
+.menu-item {
+    height: 254px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+    margin: 0 22px;
+}
+
+.menu-body {
+  margin-top: 10px;
+  margin-bottom:15px;
+}
+
+ .title { font-size:1.2em; }
+
+
+#wrap-content {
+    width: 100%;
+    background-color: #f2e4b3;
+}
+
+#content {
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#wrap-footer {
+    width: 100%;
+    background-color: green;
+}
+
+#footer {
+    margin: 0 auto;
+    bottom: 0;
+    width: 1280px;
+    height: 10.5rem;
+    padding-top: 30px;
+}
+
+.footer-info {
+  width: 60%;
+  float: left;
+  color: white;
+}
+
+.footer-contact {
+  width: 40%;
+  float: right;
+  color: white;
+}
+
+.footer-info h2, .footer-contact h2 { font-family: 'Architects Daughter'; margin: 10px; }
+.footer-info span, .footer-contact span { margin: 10px; font-size: 13px; }
+
+
+.text-main-title2{font-size: 25px; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-main-title{font-size: 18px; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-menu-weather{font-size: 24px; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-menu-ex{font-size: 1.4rem; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-menu-header{font-size: 35px; font-family: 'ghanachoco'; color: green;}

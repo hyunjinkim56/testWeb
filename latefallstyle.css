@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'ghanachoco';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+:link { color: black;}
+:visited {color: black;}
+
+#headerSubtext a:hover {
+    color: blanchedalmond;
+    background-color: black;
+}
+
+body{
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    margin:auto;
+    width: 1280px;
+}
+
+.row2{
+    display: flex;
+    margin: auto;
+    width: 800px;
+}
+
+#header{
+    background-image: url(img/latefallmenu.jpg);
+    height: 778px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+#marginYong{
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+#headerMaintext{
+    width: 1280px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    
+   
+}
+
+#headerSubtext{
+
+    width: 1280;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 
+    
+}
+
+.ST{
+    width: 300px;
+}
+
+.menuheader{
+    height: 2000px;
+}
+
+.menu{
+    margin-top: 500px;
+    display: flex;
+    font-size: 17px;
+    padding-right: 40px;
+}
+
+
+
+#lin{
+    padding: 0px 50px;
+    width: 120px;
+    height: 10px;
+   
+}
+
+#fallMenu{
+    width: 1280px;
+    height: 0px;
+    text-align: center;
+    margin: 200px auto;
+}
+
+#Fruit{
+    width: 250px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.37);
+    text-align: center;
+    margin: -70px auto;
+    line-height: 54px;
+    
+}
+
+#section{
+    width: 1280px;
+    height: 2100px;
+    margin-top: 0px;
+}
+
+#fruitSection{
+    width: 1280px;
+    height: 1800px;
+    
+}
+
+#sugar{
+    margin: 0 auto;
+    width: 550px;
+    height: 100px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 370px;
+    margin-top: 100px;
+    
+    
+}
+
+#date{
+    margin: 0 auto;
+    width: 550px;
+    text-align: left;
+
+}
+
+#explain{
+    margin-top: 10px;
+}
+
+#contentBox{
+    padding: 20px 0px 10px 0px;
+    justify-content: center;
+    height: 200px;
+    width: 1280px;
+
+}
+
+#borderBox{
+    width: 380px;
+    height: 120px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    margin: 40px;
+    padding: 15px;
+}
+
+#borderBox2{
+    width: 400px;
+    height: 120px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    margin: 40px;
+    padding: 15px;
+}
+
+#wrap-footer {
+    width: 100%;
+    background-color: green;
+}
+
+#footer {
+    margin: 0 auto;
+    bottom: 0;
+    width: 1280px;
+    height: 10.5rem;
+    padding-top: 30px;
+}
+
+.footer-info {
+  width: 60%;
+  float: left;
+  color: white;
+}
+
+.footer-contact {
+  width: 40%;
+  float: right;
+  color: white;
+}
+
+.footer-info h2, .footer-contact h2 { font-family: 'Architects Daughter'; margin: 10px; }
+.footer-info span, .footer-contact span { margin: 10px; font-size: 13px; }
+
+.text-small-explain{font-size: 15px; font-family: 'Apple SD Gothic'; color: rgb(0, 0, 0);}
+.text-fruit-explain{font-size: 17px; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-fruit-title{font-size: 20px; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-main-title{font-size: 40px; font-family: 'ghanachoco'; color: rgb(255, 255, 255);}
+.text-menu-weather{font-size: 24px; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-menu-ex{font-size: 1.4rem; font-family: 'ghanachoco'; color: rgb(0, 0, 0);}
+.text-menu-header{font-size: 35px; font-family: 'ghanachoco'; color: green;}
